@@ -13,7 +13,7 @@
 
     try{
       
-      $myPDO = new PDO("");
+      $myPDO = new PDO("your info");
     
       $sql_query1 = "INSERT INTO waiting_users(name,last_name,email)VALUES('$n', '$ln', '$e')";
       $myPDO->query($sql_query1);
