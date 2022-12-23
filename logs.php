@@ -12,7 +12,7 @@
 
       try{
         
-        $myPDO = new PDO("");
+        $myPDO = new PDO("your info");
 
         $sql = "SELECT * FROM logs";
 
